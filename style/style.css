@@ -14,36 +14,6 @@ p
 { padding: 0 0 15px 0;
   line-height: 1.5em;}
 
-img
-{ border: 0;}
-
-h1, h2, h3, h4, h5, h6 
-{ font: normal 175% 'cutive mono',  cutive mono, sans-serif;
-  color: #43423F;
-  margin: 0 0 15px 0;
-  padding: 5px 0 5px 0;}
-
-h2
-{ font: normal 175% 'cutive mono',  cutive mono, sans-serif;
-  color: #B60000;
-  padding: 15px 0 5px 0;}
-
-h3
-{ font: normal 165% 'cutive mono',  cutive mono, sans-serif;}
-
-h4, h5, h6
-{ margin: 0;
-  padding: 0 0 5px 0;
-  font: normal 120% arial, sans-serif;
-  color: #B60000;}
-
-h5, h6
-{ font: italic 95% arial, sans-serif;
-  color: #888;}
-
-h6
-{ color: #362C20;}
-
 a, a:hover
 { background: transparent;
   outline: none;
@@ -62,99 +32,45 @@ ul li
   margin: 0 0 6px 0; 
   padding: 0 0 4px 5px;}
 
-ol
-{ margin: 8px 0 22px 20px;}
-
-ol li
-{ margin: 0 0 11px 0;}
-
-.left
-{ float: left;
-  width: auto;
-  margin-right: 10px;}
-
-.right
-{ float: right; 
-  width: auto;
-  margin-left: 10px;}
-
-.center
-{ display: block;
-  text-align: center;
-  margin: 20px auto;}
-
-#main, #header, #logo, #menubar, #site_content, #footer
+#header, #logo, #menubar, #main
 { margin-left: auto; 
   margin-right: auto;}
 
-#main
-{ width: 950px;
-  margin: 20px auto;}
-
 #header
 { width: 950px;
-  height: 121px;}
+  height: 0px;}
 
 #logo
-{ width: 75px;
-  position: center;
-  height: 100px;
-  background: transparent;
-  padding: 10px 0 10px 0;}
-
-#logo h1, #logo h2
-{ font: normal 150% 'cutive mono',  cutive mono, sans-serif;
-  border-bottom: 0;
-  text-transform: none;
-  margin: 0 0 0 9px;}
-
-#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
-{ padding: 0px 0 0 0;
-  color: #fff;
-  letter-spacing: 0.1em;
-  text-decoration: none;}
-
-#logo_text h1 a .logo_colour
-{ color: #FFF;}
-
-#logo_text h2
-{ font-size: 120%;
-  padding: 4px 0 0 0;
-  color: #A8AA94;}
+{ width: 100px;
+  height: 0px;
+  padding: 0px 0 0px 0;}
 
 #menubar
-{ height: 46px;
-  width: 950px;
+{ height: 20px;
+  width: 350px;
   margin: 1px auto 0 auto;
   background: transparent url(tab.png);} 
 
 ul#menu
-{ float: left;
+{ float: right;
   margin: 0;padding: 0;}
 
 ul#menu li
-{ float: left;
+{ float: right;
   padding: 0 0 0 6px;
   list-style: none;
   margin: 0px 2px 0 0;}
 
 ul#menu li a
-{ font: normal 100% 'trebuchet ms', sans-serif;
+{ font: normal 200% 'trebuchet ms', sans-serif;
   display: block; 
-  float: left; 
+  float: right; 
   height: 27px;
   padding: 12px 28px 5px 22px;
   text-align: center;
   color: #FFF;
   border-right: 1px solid #636363;
   text-decoration: none;} 
-
-ul#menu li.tab_selected a
-{ height: 27px;
-  padding: 6px 28px 5px 22px;}
-
-ul#menu li.selected a, ul#menu li.selected a:hover
-{ color: #ECEF01;}
 
 ul#menu li a:hover
 { color: #ECEF01;}
@@ -173,14 +89,14 @@ ul#menu li a:hover
 { text-align: center;
   color: #fff;)
   width: 655px;
-  padding: 250px 0 0px 0;
+  padding: 305px 0 0px 0;
   margin: 0;}
 
 #content ul
 { margin: 350px 0 0px 0px;}
 
 #footer
-{ width: 800px;
+{ width: 1915px;
   font: normal 100% 'cutive mono',  cutive mono, sans-serif;
   height: 100px;
   padding: 500px 0 5px 0;
@@ -199,64 +115,6 @@ ul#menu li a:hover
 { color: #ffa500;
   text-decoration: none;}
 
-.search
-{ color: #5D5D5D; 
-  border: 1px solid #BBB; 
-  width: 134px; 
-  padding: 4px; 
-  font: 100% arial, sans-serif;}
-
-.form_settings
-{ margin: 15px 0 0 0;}
-
-.form_settings p
-{ padding: 0 0 4px 0;}
-
-.form_settings span
-{ float: left; 
-  width: 200px; 
-  text-align: left;}
-  
-.form_settings input, .form_settings textarea
-{ padding: 5px; 
-  width: 299px; 
-  font: 100% arial; 
-  border: 1px solid #E5E5DB; 
-  background: #FFF; 
-  color: #47433F;}
-  
-.form_settings .submit
-{ font: 100% arial; 
-  border: 1px solid; 
-  width: 99px; 
-  margin: 0 0 0 212px; 
-  height: 33px;
-  padding: 2px 0 3px 0;
-  cursor: pointer; 
-  background: #3B3B3B; 
-  color: #FFF;}
-
-.form_settings textarea, .form_settings select
-{ font: 100% arial; 
-  width: 299px;}
-
-.form_settings select
-{ width: 310px;}
-
-.form_settings .checkbox
-{ margin: 4px 0; 
-  padding: 0; 
-  width: 14px;
-  border: 0;
-  background: none;}
-
-.separator
-{ width: 100%;
-  height: 0;
-  border-top: 1px solid #D9D5CF;
-  border-bottom: 1px solid #FFF;
-  margin: 0 0 20px 0;}
-  
 table
 { margin: 10px 0 30px 0;}
 
