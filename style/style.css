@@ -1,4 +1,22 @@
-html
+a, a:hover
+{ background: transparent;
+  outline: none;
+  text-decoration: underline;
+  color: #51A9FB;}
+
+a:hover
+{ text-decoration: none;
+  color: #5D5D5D;}
+
+#content
+{ text-align: center;
+  font: normal 80% 'cutive mono',  cutive mono;
+  color: #fff;)
+  width: 655px;
+  padding: 0px 0 0px 0;
+  margin: 0;}
+  
+  html
 { height: 100%;}
 
 *
@@ -25,19 +43,19 @@ a:hover
   color: #5D5D5D;}
 
 ul
-{ margin: 2px 0 22px 17px;}
+{ margin: 2px 0 50px 17px;}
 
 ul li
 { list-style-type: circle;
   margin: 0 0 6px 0; 
-  padding: 0 0 4px 5px;}
+  padding: 0 0 4px 50px;}
 
 #header, #logo, #menubar, #main
 { margin-left: auto; 
   margin-right: auto;}
 
 #header
-{ width: 950px;
+{ width: 840px;
   height: 0px;}
 
 #logo
@@ -66,34 +84,22 @@ ul#menu li a
   display: block; 
   float: right; 
   height: 27px;
-  padding: 12px 28px 5px 22px;
+  padding: 20px 50px 5px 22px;
   text-align: center;
-  color: #FFF;
-  border-right: 1px solid #636363;
+  color: #111111;
+  border-right: 1px solid #111111;
   text-decoration: none;} 
 
 ul#menu li a:hover
-{ color: #ECEF01;}
+{ color: #111111;}
 
 #site_content
-{ width: 925px;
-  overflow: hidden;
-  margin: 44px auto 0 auto;
-  padding: 350px 0 0 0px;
-  background: #fff;
+{ overflow: hidden;
+  padding: 200px 0 0 750px;
+  background: #111111;
   border-top: 0;
   border-bottom: 0;
   color: #fff;} 
-
-#content
-{ text-align: center;
-  color: #fff;)
-  width: 655px;
-  padding: 305px 0 0px 0;
-  margin: 0;}
-
-#content ul
-{ margin: 350px 0 0px 0px;}
 
 #footer
 { width: 1915px;
@@ -128,3 +134,6 @@ table tr td
 { background: #DDD;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+
+
