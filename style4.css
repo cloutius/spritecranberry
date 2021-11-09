@@ -1,9 +1,3 @@
-a, a:hover
-{ background: transparent;
-  outline: none;
-  text-decoration: none;
-  color: #111;}
-
 a:hover
 { text-decoration: none;
   color: #5D5D5D;}
