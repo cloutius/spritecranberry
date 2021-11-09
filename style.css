@@ -1,8 +1,7 @@
 a, a:hover
 { background: transparent;
   outline: none;
-  text-decoration: underline;
-  color: #51A9FB;}
+  color: #fff;}
 
 a:hover
 { text-decoration: none;
@@ -11,9 +10,9 @@ a:hover
 #content
 { text-align: center;
   font: normal 80% 'cutive mono',  cutive mono;
-  color: #fff;)
-  width: 655px;
-  padding: 0px 0 0px 0;
+  color: #111111;)
+  width: 800px;
+  padding: 350px 0 0px 0;
   margin: 0;}
   
   html
@@ -35,8 +34,8 @@ p
 a, a:hover
 { background: transparent;
   outline: none;
-  text-decoration: underline;
-  color: #51A9FB;}
+  text-decoration: none;
+  color: #fff;}
 
 a:hover
 { text-decoration: none;
@@ -99,7 +98,7 @@ ul#menu li a:hover
   background: #111111;
   border-top: 0;
   border-bottom: 0;
-  color: #fff;} 
+  color: #111111;} 
 
 #footer
 { width: 1915px;
@@ -107,14 +106,14 @@ ul#menu li a:hover
   height: 100px;
   padding: 500px 0 5px 0;
   text-align: center; 
-  color: #FFF;
+  color: #fff;
   background: transparent url(tab.png) repeat;}
 
 #footer p
 { padding: 0 0 10px 0;}
 
 #footer a, #footer a:hover
-{ color: #FFF;
+{ color: #fff;
   text-decoration: none;}
 
 #footer a:hover
@@ -126,14 +125,14 @@ table
 
 table tr th, table tr td
 { background: #3B3B3B;
-  color: #FFF;
+  color: #111111;
   padding: 7px 4px;
   text-align: left;}
   
 table tr td
 { background: #DDD;
   color: #47433F;
-  border-top: 1px solid #FFF;}
+  border-top: 1px solid #111111;}
 
 
 
