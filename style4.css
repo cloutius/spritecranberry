@@ -1,16 +1,4 @@
-a:hover
-{ text-decoration: none;
-  color: #5D5D5D;}
-
-#content
-{ text-align: center;
-  font: normal 80% 'cutive mono',  cutive mono;
-  color: #111111;)
-  width: 800px;
-  padding: 350px 0 0px 0;
-  margin: 0;}
-  
-  html
+html
 { height: 100%;}
 
 *
@@ -18,94 +6,202 @@ a:hover
   padding: 0;}
 
 body
-{ font: normal .80em 'cutive mono',  cutive mono, sans-serif;
-  background: #f7eeee url(pattern.png) repeat fixed;
-  color: #5D5D5D;}
+{ font: normal 100% 'cutive mono',  cutive mono, sans-serif;
+  background: #f8f0f0 url(pattern.png) repeat fixed;
+  color: #f8f0f0;}
 
 p
 { padding: 0 0 15px 0;
   line-height: 1.5em;}
 
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #111111;
+  margin: 0 0 15px 0;
+  padding: 5px 0 5px 0;}
+
+h2
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #B60000;
+  padding: 15px 0 5px 0;}
+
+h3
+{ font: normal 165% 'century gothic', arial, sans-serif;}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 120% arial, sans-serif;
+  color: #B60000;}
+
+h5, h6
+{ font: italic 95% arial, sans-serif;
+  color: #888;}
+
+h6
+{ color: #362C20;}
+
 a, a:hover
 { background: transparent;
   outline: none;
   text-decoration: none;
-  color: #111;}
+  color: #111111;}
 
 a:hover
 { text-decoration: none;
   color: #5D5D5D;}
 
 ul
-{ margin: 2px 0 50px 17px;}
+{ margin: 2px 0 22px 17px;}
 
 ul li
 { list-style-type: circle;
   margin: 0 0 6px 0; 
-  padding: 0 0 4px 50px;}
+  padding: 0 0 4px 5px;}
 
-#header, #logo, #menubar, #main
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+#main, #header, #logo, #menubar, #site_content, #footer
 { margin-left: auto; 
   margin-right: auto;}
 
+#main
+{ width: 1790px;
+  margin: 20px auto;}
+
 #header
-{ width: 840px;
-  height: 0px;}
+{ width: 950px;
+  height: 121px;}
 
 #logo
-{ width: 100px;
+{ font: normal 100% 'cutive mono', cutive mono, sans-serif;
+  width: 400px;
+  position: static;
   height: 0px;
-  padding: 0px 0 0px 0;}
+  padding: 0px 10px;}
 
 #menubar
-{ height: 20px;
-  width: 350px;
+{ height: 46px;
+  width: 950px;
   margin: 1px auto 0 auto;
   background: transparent url(tab.png);} 
 
 ul#menu
-{ float: right;
+{ float: left;
   margin: 0;padding: 0;}
 
 ul#menu li
-{ float: right;
+{ float: left;
   padding: 0 0 0 6px;
   list-style: none;
   margin: 0px 2px 0 0;}
 
 ul#menu li a
-{ font: normal 200% 'trebuchet ms', sans-serif;
+{ font: normal 70% 'cutive mono',  cutive mono, sans-serif;
   display: block; 
-  float: right; 
+  float: left; 
   height: 27px;
-  padding: 20px 50px 5px 22px;
+  padding: 10px 29px 6px 22px;
   text-align: center;
-  color: #f7eeee;
-  border-right: 1px solid #f7eeee;
+  color: #111111;
   text-decoration: none;} 
 
+ul#menu li.tab_selected a
+{ height: 27px;
+  padding: 6px 28px 5px 22px;}
+
 ul#menu li a:hover
-{ color: #f7eeee;}
+{ color: #ffa500;}
 
 #site_content
-{ overflow: hidden;
-  padding: 200px 0 0 750px;
-  background: #111111;
+{ width: 925px;
+  overflow: hidden;
+  margin: 44px auto 0 auto;
+  padding: 10px 0 0 25px;
+  background: #EEE;
   border-top: 0;
   border-bottom: 0;
   color: #111111;} 
 
-#footer
-{ width: 1915px;
-  font: normal 100% 'cutive mono',  cutive mono, sans-serif;
-  height: 100px;
-  padding: 500px 0 5px 0;
-  text-align: center; 
-  color: #111111;
-  background: transparent url(tab.png) repeat;}
+#sidebar_container
+{ float: right;
+  width: 224px;
+  padding: 10px 20px 20px 0;}
 
-#footer p
-{ padding: 0 0 10px 0;}
+.sidebar_top, .sidebar_base
+{ width: 222px;
+  height: 14px;
+  background: transparent url(side_top.png) no-repeat;}
+
+.sidebar_base
+{ background: url(side_base.png) no-repeat;}
+
+.sidebar
+{ float: right;
+  width: 222px;
+  padding: 0;
+  margin: 0 0 16px 0;}
+
+.sidebar_item
+{ background: #111111;
+  padding: 0 15px;
+  width: 192px;}
+
+.sidebar_item ul
+{ width: 178px; 
+  padding: 0px 0 0 0; 
+  margin: 0px 0 0px 0;}
+
+.sidebar_item li
+{ list-style: none; 
+  padding: 0 0 6px 0;margin: 0; }
+
+.sidebar_item li a, .sidebar_item li a:hover
+{ padding: 0 0 0 35px;
+  display: block;
+  background: transparent url(link.png) no-repeat left center;} 
+
+.sidebar_item li a.selected
+{ color: #444;
+  text-decoration: none;} 
+
+#content
+{ text-align: center;
+  width: 655px;
+  padding: 300px 640px;
+  color: #111111;
+  margin: 0;}
+
+#footer
+{ width: 950px;
+  font: normal 70% 'cutive mono',  cutive mono, sans-serif;
+  height: 0px;
+  padding: 0px 0px;
+  text-align: left; 
+  color: #111111;
+  background: transparent url(SIGN.png) repeat;}
 
 #footer a, #footer a:hover
 { color: #111111;
@@ -115,19 +211,74 @@ ul#menu li a:hover
 { color: #ffa500;
   text-decoration: none;}
 
+.search
+{ color: #5D5D5D; 
+  border: 1px solid #BBB; 
+  width: 134px; 
+  padding: 4px; 
+  font: 100% arial, sans-serif;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #111111; 
+  color: #47433F;}
+  
+.form_settings .submit
+{ font: normal 100% 'cutive mono',  cutive mono, sans-serif; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #3B3B3B; 
+  color: #111111;}
+
+.form_settings textarea, .form_settings select
+{ font: normal 100% 'cutive mono',  cutive mono, sans-serif; 
+  width: 299px;}
+
+.form_settings select
+{ width: 310px;}
+
+.form_settings .checkbox
+{ margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;}
+
+.separator
+{ width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #111111;
+  margin: 0 0 20px 0;}
+  
 table
 { margin: 10px 0 30px 0;}
 
 table tr th, table tr td
 { background: #3B3B3B;
-  color: #f7eeee;
+  color: #111111;
   padding: 7px 4px;
   text-align: left;}
   
 table tr td
 { background: #DDD;
   color: #47433F;
-  border-top: 1px solid #f7eeee;}
-
-
-
+  border-top: 1px solid #111111;}
